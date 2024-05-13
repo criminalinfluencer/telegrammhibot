@@ -310,21 +310,21 @@ def handle_start(message):
 @bot.message_handler(commands=['profile'])
 def handle_profile(message):
     bot.send_message(message.chat.id, 'User: {message.from_user.username}')
-    bot.send_message(message.chat.id, 'Age: 30')
-    bot.send_message(message.chat.id, 'Location: New York')
+    bot.send_message(message.chat.id, 'Profit: 30')
+    bot.send_message(message.chat.id, 'Entries: 10')
 
 @bot.message_handler(commands=['buy'])
 def handle_buy(message):
-    bot.send_message(message.chat.id, 'Buying something...')
+    bot.send_message(message.chat.id, 'Buying EURUSD...')
 
 @bot.message_handler(commands=['sell'])
 def handle_sell(message):
-    bot.send_message(message.chat.id, 'Selling something...')
+    bot.send_message(message.chat.id, 'Selling EURUSD...')
 
 @bot.message_handler(commands=['entries'])
 def handle_entries(message):
-    bot.send_message(message.chat.id, 'Entry 1: Lorem ipsum')
-    bot.send_message(message.chat.id, 'Entry 2: Dolor sit amet')
+    bot.send_message(message.chat.id, 'Entry 1: Buy')
+    bot.send_message(message.chat.id, 'Entry 2: Sell')
 
 @bot.message_handler(commands=['startbot'])
 def handle_start(message):
