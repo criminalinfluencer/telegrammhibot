@@ -6,12 +6,12 @@ import threading
 import time
 import sys
 
-bot = telebot.TeleBot('6897219772:AAG6l0XZB7HQOpRW8-Q4ZqO3UE32nYDZXzE')
+bot = telebot.TeleBot('TOKEN')
 
 QTD_MARTINGALE = 2
 PAYOUTS = { 'digital': {}, 'turbo': {} }
-EMAIL = 'dmftrader@gmail.com'
-SENHA = 'Hxayzht0'
+EMAIL = 'teste@gmail.com'
+SENHA = 'teste'
 TIPO_CONTA = 'PRACTICE'
 TIPO_PAR = 'turbo'
 
